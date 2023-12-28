@@ -24,3 +24,10 @@ Try giving it a run:
 Did an mmd file and svg file show up? Woohoo!
 
 Now we have those we need to do something with them, for me I just had home assistant (on the OS) scp periodically to the server/computer I ran this one. But I imagine if you had full CLI access on the HA machine you could just do it right from there. Then just stick it in the /config/www directory and it is public for you to reference, boom
+
+In this example I don't have many repeaters or devices but here is an idea of what it will look like:
+![image](output.svg)
+
+This is basically just compiling the /hub/zigbee/getChildAndRouteInfo page into a mermaid diagram.
+
+Cheers!
